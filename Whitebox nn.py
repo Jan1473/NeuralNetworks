@@ -43,7 +43,7 @@ def accuracy(ytst,ypred):
     print("mean error:",np.mean(np.abs((ypred-ytst))))
     print("rmse:",np.sqrt(((ypred-ytst)**2).mean()))
     
-data = pd.read_csv(r"C:\Users\C J HARINI\Desktop\AI_new_data.csv")
+data = pd.read_csv(r"C:\Users\janani\Desktop\AI_new_data.csv")
 
 x=np.array(data.iloc[:,:-1])
 y=np.array(data.iloc[:,-1:])
